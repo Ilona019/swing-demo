@@ -31,7 +31,7 @@ repositories {
 }
 
 launch4j {
-    src = './src/main/java/SwingDemo.java'
+    mainClassName = './src/main/java/SwingDemo.java'
     headerType='console'
     outfile = "gradle-wrapper.exe"
     jar = './build/libs/gradle-wrapper2.jar'
